@@ -136,6 +136,8 @@ wilcoxon_tree <- myRF(y ~ ., data = train,
                       nodesize = 60,
                       split_rule = "Wilcoxon") # similar for other splitting rules
 ```
+Although in the manuscript, we described a *pruning* method for the Wilcoxon regression tree, we have not yet implemented it in `R` as of September 25, 2026. We will implement it in the near future.
+
 
 ## Prediction
 
