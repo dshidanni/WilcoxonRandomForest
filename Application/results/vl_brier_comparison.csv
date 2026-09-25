@@ -1,0 +1,5 @@
+"Method","Mean_Brier"
+"Uninformative model",0.139189799004283
+"Logistic regression with restricted cubic splines",0.130933537456841
+"WRF",0.127100059963219
+"Classification random forest",0.122863017445728
