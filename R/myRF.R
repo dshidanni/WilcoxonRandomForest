@@ -26,7 +26,7 @@ myRF <- function(formula, # outcome ~ covariates
                  ntree=1000, # number of trees in forest
                  mtry=2, # number of candidate predictors sampled at each node,
                  # a common choice is sqrt(p) or p/3, where p is the number of predictors
-                 max_depth=1000, nodesize=5, max_nodes=NULL, # tree constraints
+                 max_depth=NULL, nodesize=5, max_nodes=NULL, # tree constraints
                  # maximum tree depth, minimum leaf size, and optional maximum number of leaf nodes
                  split_rule=c("SSE","Wilcoxon","pinball"), # SSE, rank-based Wilcoxon, or pinball loss splitting
                  replace = FALSE, # default is subsampling
@@ -53,9 +53,10 @@ myRF <- function(formula, # outcome ~ covariates
     stop("nodesize must be a positive integer.")
   }
   
-  if (!is.numeric(max_depth) || length(max_depth) != 1L || is.na(max_depth) ||
-      !is.finite(max_depth) || max_depth < 0 || max_depth != floor(max_depth)) {
-    stop("max_depth must be a nonnegative integer.")
+  if (!is.null(max_depth) &
+      (!is.numeric(max_depth) || length(max_depth) != 1L || is.na(max_depth) ||
+       !is.finite(max_depth) || max_depth < 1 || max_depth != floor(max_depth))) {
+    stop("max_depth must be NULL or a positive integer.")
   }
   
   if (!is.null(max_nodes) &
