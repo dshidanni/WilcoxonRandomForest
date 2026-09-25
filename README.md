@@ -37,7 +37,7 @@ See [`Simulations/README.md`](Simulations/README.md) for the full design, run or
 
 Public workflow for the HIV application using the synthetic data. The confidential clinical data are not included. The synthetic data and scripts demonstrate:
 
--   6-month CD4 distribution prediction and threshold probabilities at 200, 350, and 500 cells/µL;
+-   6-month CD4 distribution prediction and threshold probabilities `P(CD4 <= 200, 350, 500 | X)`;
 -   6-month viral suppression probability, `P(VL < 80 | X)`;
 -   comparison with logistic regression and classification random forest;
 -   cross-validated Brier score, CRPS, calibration, and predicted-CDF displays.
