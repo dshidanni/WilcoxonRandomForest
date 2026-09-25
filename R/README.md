@@ -305,3 +305,11 @@ head(pred_ECDF)
 # 11 -1.044135 0.10611291
 
 ```
+
+## Reference
+
+Shi, D., Shepherd, B.E., Li, C., (2026) Wilcoxon Random Forests for Robust Distributional Prediction.
+
+Harrell Jr FE (2025). _rms: Regression Modeling Strategies_. doi:10.32614/CRAN.package.rms <https://doi.org/10.32614/CRAN.package.rms>, R package version 8.1-0, <https://CRAN.R-project.org/package=rms>.
+
+Bates D, Maechler M, Jagan M (2025). _Matrix: Sparse and Dense Matrix Classes and Methods_. doi:10.32614/CRAN.package.Matrix <https://doi.org/10.32614/CRAN.package.Matrix>, R package version 1.7-4, <https://CRAN.R-project.org/package=Matrix>.
