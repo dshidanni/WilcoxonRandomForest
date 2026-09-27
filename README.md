@@ -49,7 +49,7 @@ The synthetic results are illustrative and will not numerically reproduce the co
 
 All code was implemented in R 4.5.3. We also use CRAN packages
 
--   `rms` package (version 8.1-0 for CPM-based approaches) for CPM refinement. For CPM refinement, please make sure that the `rms` package version is at least 7.0-0.
+-   `rms` package (version 8.1-0) for CPM refinement. Please make sure that the `rms` package version is at least 7.0-0.
 -   `Matrix` package (version 1.7-4) for matrix computations.
 -   `synthpop` package (version 1.9-2) for generating synthetic datasets.
 
