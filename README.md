@@ -55,7 +55,7 @@ All code was implemented in R 4.5.3. We also use CRAN packages
 
 ## Reference
 
-Shi D, Shepherd BE, Li C, (2026) Wilcoxon Random Forests for Robust Distributional Prediction.
+Shi D, Shepherd BE, Li C, (2026) Wilcoxon Random Forests for Robust Distributional Prediction. <https://arxiv.org/abs/2609.31931>
 
 Harrell Jr FE (2025). _rms: Regression Modeling Strategies_. doi:10.32614/CRAN.package.rms <https://doi.org/10.32614/CRAN.package.rms>, R package version 8.1-0, <https://CRAN.R-project.org/package=rms>.
 
